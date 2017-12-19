@@ -14,7 +14,6 @@ object AccumulatorVariable {
     val conf = new SparkConf()
       .setAppName("AccumulatorVariable")
       .setMaster("local")
-
     val sc = new SparkContext(conf)
 
     val sum = sc.accumulator(0)
