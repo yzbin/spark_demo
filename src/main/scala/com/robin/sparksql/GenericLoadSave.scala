@@ -47,7 +47,7 @@ object GenericLoadSave {
       user2DF.write.mode("overwrite").save("C:\\idea\\spark_demo\\src\\main\\scala\\com\\robin\\file\\namesAndFavColors_scala")
     }
 
-//    test1()
-   test2()
+//   test1()
+//   test2()
   }
 }
